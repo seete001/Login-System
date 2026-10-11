@@ -5,6 +5,12 @@ The project provides user registration, login, password hashing, a personal dash
 
 > ⚠️ **Educational Project:** This application is intended for learning and development purposes. It is **not** a real login system.
 
+
+<img width="2528" height="1178" alt="Screenshot 2026-10-11 at 13 19 45" src="https://github.com/user-attachments/assets/6b27e49e-2676-4034-818d-53ada9c00303" />
+<img width="2527" height="1178" alt="Screenshot 2026-10-11 at 13 20 01" src="https://github.com/user-attachments/assets/f19450a5-fe15-4c6e-8830-b06ca35db48c" />
+<img width="2550" height="1180" alt="Screenshot 2026-10-11 at 13 20 39" src="https://github.com/user-attachments/assets/e081c6f0-687b-4758-a92c-c7c80a75a1cf" />
+
+
 ---
 
 ## ✨ Features
@@ -14,6 +20,11 @@ The project provides user registration, login, password hashing, a personal dash
 * 🔒 Secure password hashing
 * 🗄️ SQLite database
 * 🎨 HTML/CSS web interface
+
+---
+## Authentication and Sessions: 
+
+Passwords are hashed using PHP's password_hash() and verified with password_verify(). PHP sessions ($_SESSION) maintain the authenticated user's state across requests. After successful login, the user's ID and basic information are stored in the session. The dashboard checks the session before granting access, and logout destroys the session.
 
 ---
 
