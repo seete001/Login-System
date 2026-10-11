@@ -1,6 +1,30 @@
+# Environment variables and secrets
 .env
-__pycache__/
-*.pyc
+.env.*
+!.env.example
+
+# SQLite database files (may contain user data)
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+database/platform.db
+
+# Logs
+*.log
+
+# Operating system files
 .DS_Store
-platform.db
-logs/
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
