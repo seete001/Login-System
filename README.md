@@ -7,11 +7,14 @@ The project provides user registration, login, password hashing, a personal dash
 
 
 <img width="2528" height="1178" alt="Screenshot 2026-10-11 at 13 19 45" src="https://github.com/user-attachments/assets/6b27e49e-2676-4034-818d-53ada9c00303" />
+
+---
 <img width="2527" height="1178" alt="Screenshot 2026-10-11 at 13 20 01" src="https://github.com/user-attachments/assets/f19450a5-fe15-4c6e-8830-b06ca35db48c" />
+
+---
 <img width="2550" height="1180" alt="Screenshot 2026-10-11 at 13 20 39" src="https://github.com/user-attachments/assets/e081c6f0-687b-4758-a92c-c7c80a75a1cf" />
 
 
----
 
 ## ✨ Features
 
