@@ -82,8 +82,12 @@ PDO SQLite extension enabled
 
 A web browser Running Locally
 
-From the project root, start the PHP development server:
-
+From the project root, install dependencies and start the PHP development server:
+    
+    apt install php-cli
+    
+    apt install php-sqlite3
+    
     php -S localhost:8000 index.php
 
  # Open the application at:
